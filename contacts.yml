@@ -1,0 +1,21 @@
+---
+- !ruby/object:Contact
+  phone_numbers: []
+  addresses: []
+  first_name: Praveen
+  middle_name: Kumar Jaisw
+  last_name: ''
+- !ruby/object:Contact
+  phone_numbers:
+  - !ruby/object:PhoneNumber
+    number: '9876543211'
+  addresses:
+  - !ruby/object:Address
+    street_1: fghj
+    street_2: dfghj
+    city: ghjk
+    state: vbnm
+    zip_code: hjk
+  first_name: Praveen
+  middle_name: Kumar
+  last_name: Kaish
